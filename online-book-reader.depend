@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1658844764 source:d:\study\cpp-projects\online-book-reader\book.cpp
+	"book.h"
+
+1658844880 d:\study\cpp-projects\online-book-reader\book.h
+	<vector>
+	<string>
+
+1584205420 source:d:\study\cpp-projects\online-book-reader\main.cpp
+	<iostream>
+
+1658844930 source:d:\study\cpp-projects\online-book-reader\helper.cpp
+	"helper.h"
+	<ctime>
+	<chrono>
+	<iomanip>
+	<iostream>
+
+1658844893 d:\study\cpp-projects\online-book-reader\helper.h
+	<string>
+	<vector>
+
