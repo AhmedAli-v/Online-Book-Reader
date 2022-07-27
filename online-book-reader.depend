@@ -1,13 +1,15 @@
 # depslib dependency file v1.0
-1658844764 source:d:\study\cpp-projects\online-book-reader\book.cpp
+1658845932 source:d:\study\cpp-projects\online-book-reader\book.cpp
 	"book.h"
+	<iostream>
 
-1658844880 d:\study\cpp-projects\online-book-reader\book.h
+1658845913 d:\study\cpp-projects\online-book-reader\book.h
 	<vector>
 	<string>
 
-1584205420 source:d:\study\cpp-projects\online-book-reader\main.cpp
+1658934367 source:d:\study\cpp-projects\online-book-reader\main.cpp
 	<iostream>
+	"online-reader-system.h"
 
 1658844930 source:d:\study\cpp-projects\online-book-reader\helper.cpp
 	"helper.h"
@@ -19,4 +21,75 @@
 1658844893 d:\study\cpp-projects\online-book-reader\helper.h
 	<string>
 	<vector>
+
+1658931382 source:d:\study\cpp-projects\online-book-reader\book-reading-session.cpp
+	"book-reading-session.h"
+	"helper.h"
+	<sstream>
+
+1658931156 d:\study\cpp-projects\online-book-reader\book-reading-session.h
+	"book.h"
+
+1658934404 source:d:\study\cpp-projects\online-book-reader\user.cpp
+	"user.h"
+	<vector>
+	<iostream>
+	<sstream>
+
+1658931258 d:\study\cpp-projects\online-book-reader\user.h
+	"book-reading-session.h"
+	<vector>
+	<iostream>
+
+1658934605 source:d:\study\cpp-projects\online-book-reader\users-manager.cpp
+	"users-manager.h"
+	"helper.h"
+
+1658932039 d:\study\cpp-projects\online-book-reader\users-manager.h
+	"user.h"
+	<utility>
+	<map>
+	<iostream>
+
+1658934427 source:d:\study\cpp-projects\online-book-reader\books-manager.cpp
+	"books-manager.h"
+
+1658932365 d:\study\cpp-projects\online-book-reader\books-manager.h
+	"book.h"
+	<map>
+	<iostream>
+
+1658932987 source:d:\study\cpp-projects\online-book-reader\user-view.cpp
+	"user-view.h"
+	<vector>
+	<iostream>
+	"helper.h"
+	<map>
+	<utility>
+
+1658932582 d:\study\cpp-projects\online-book-reader\user-view.h
+	"books-manager.h"
+	"users-manager.h"
+	"book-reading-session.h"
+
+1658933731 source:d:\study\cpp-projects\online-book-reader\admin-view.cpp
+	"admin-view.h"
+	"helper.h"
+	<vector>
+	<iostream>
+	"book.h"
+
+1658933710 d:\study\cpp-projects\online-book-reader\admin-view.h
+	"users-manager.h"
+	"books-manager.h"
+
+1658934268 source:d:\study\cpp-projects\online-book-reader\online-reader-system.cpp
+	"online-reader-system.h"
+	<iostream>
+	"admin-view.h"
+	"user-view.h"
+
+1658934224 d:\study\cpp-projects\online-book-reader\online-reader-system.h
+	"books-manager.h"
+	"users-manager.h"
 

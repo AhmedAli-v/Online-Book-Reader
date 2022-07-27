@@ -32,11 +32,25 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="admin-view.cpp" />
+		<Unit filename="admin-view.h" />
+		<Unit filename="book-reading-session.cpp" />
+		<Unit filename="book-reading-session.h" />
 		<Unit filename="book.cpp" />
 		<Unit filename="book.h" />
+		<Unit filename="books-manager.cpp" />
+		<Unit filename="books-manager.h" />
 		<Unit filename="helper.cpp" />
 		<Unit filename="helper.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="online-reader-system.cpp" />
+		<Unit filename="online-reader-system.h" />
+		<Unit filename="user-view.cpp" />
+		<Unit filename="user-view.h" />
+		<Unit filename="user.cpp" />
+		<Unit filename="user.h" />
+		<Unit filename="users-manager.cpp" />
+		<Unit filename="users-manager.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
